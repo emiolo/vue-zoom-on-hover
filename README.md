@@ -9,7 +9,7 @@ npm install --save https://github.com/emiolo/vue-zoom-on-hover
 ## Usage
 
 ```javascript
-import ZoomOnHover from '@emiolo/vue-zoom-on-hover'
+import ZoomOnHover from '@emiolo/vue-zoom-on-hover/src/ZoomOnHover' // The path is needed because we don't have a build system yet
 
 export default {
   components: { ZoomOnHover},
@@ -22,6 +22,6 @@ export default {
 
 ## To Do
 
-[ ] Add build system
-[ ] Publish to NPM
-[ ] Write better documentation
+* [ ] Add build system
+* [ ] Publish to NPM
+* [ ] Write better documentation
