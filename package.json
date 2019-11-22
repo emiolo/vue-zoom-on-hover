@@ -1,0 +1,16 @@
+{
+  "name": "@emiolo/vue-zoom-on-hover",
+  "version": "1.0.0",
+  "description": "Simple image wrapper with performant zooming capabilities",
+  "main": "src/ZoomOnHover.vue",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "vue",
+    "zoom",
+    "hover"
+  ],
+  "author": "Antonio Eduardo <antonio@emiolo.com>",
+  "license": "ISC"
+}
