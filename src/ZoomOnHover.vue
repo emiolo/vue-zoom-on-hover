@@ -14,7 +14,7 @@ export default {
     },
     scaleFactor: {
       type: Number,
-      default: 1.5,
+      default: 2,
     },
   },
   data: () => ({
@@ -79,6 +79,6 @@ export default {
 }
 .vue-zoom-on-hover:hover img {
   transform: scale(var(--hover-scale));
-  transition: transform 0.5s, transform-origin 0s;
+  transition: transform 0.2s, transform-origin 0s;
 }
 </style>
