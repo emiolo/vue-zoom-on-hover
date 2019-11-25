@@ -44,10 +44,10 @@ export default {
       return value.toFixed(2)
     },
     onMouseMove(event) {
-      const {target, clientX, clientY} = event
+      const {target, offsetX, offsetY} = event
       const {clientWidth, clientHeight} = target
-      const x = this.limits(clientX / clientWidth * 100)
-      const y = this.limits(clientY / clientHeight * 100)
+      const x = this.limits(offsetX / clientWidth * 100)
+      const y = this.limits(offsetY / clientHeight * 100)
       this.position = {x, y}
     },
     onMouseOut() {
