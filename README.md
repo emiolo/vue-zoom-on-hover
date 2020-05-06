@@ -3,7 +3,7 @@
 ## Install
 
 ```sh
-npm install --save https://github.com/emiolo/vue-zoom-on-hover
+npm install --save @emiolo/zoom-on-hover
 ```
 
 ## Usage
@@ -23,5 +23,5 @@ export default {
 ## To Do
 
 [ ] Add build system
-[ ] Publish to NPM
+[x] Publish to NPM
 [ ] Write better documentation
