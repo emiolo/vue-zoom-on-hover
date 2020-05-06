@@ -1,6 +1,6 @@
 {
   "name": "@emiolo/vue-zoom-on-hover",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Simple image wrapper with performant zooming capabilities",
   "main": "src/ZoomOnHover.vue",
   "scripts": {

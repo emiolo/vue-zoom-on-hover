@@ -14,7 +14,7 @@ export default {
     },
     scaleFactor: {
       type: Number,
-      default: 1.5,
+      default: 2,
     },
   },
   data: () => ({
@@ -44,10 +44,10 @@ export default {
       return value.toFixed(2)
     },
     onMouseMove(event) {
-      const {target, clientX, clientY} = event
+      const {target, offsetX, offsetY} = event
       const {clientWidth, clientHeight} = target
-      const x = this.limits(clientX / clientWidth * 100)
-      const y = this.limits(clientY / clientHeight * 100)
+      const x = this.limits(offsetX / clientWidth * 100)
+      const y = this.limits(offsetY / clientHeight * 100)
       this.position = {x, y}
     },
     onMouseOut() {
@@ -79,6 +79,6 @@ export default {
 }
 .vue-zoom-on-hover:hover img {
   transform: scale(var(--hover-scale));
-  transition: transform 0.5s, transform-origin 0s;
+  transition: transform 0.2s, transform-origin 0s;
 }
 </style>
